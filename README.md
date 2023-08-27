@@ -4,4 +4,4 @@ ChuraNet - Red social para el departamento de Tarija. Conecta con personas, even
 
 Conecta con personas, eventos y noticias locales en ChuraNet, la red social para el departamento de Tarija.
 
-[VER PAGINA WEB](https://churanet.com) 
+[VER PAGINA WEB](https://dariast03.github.io/) 
