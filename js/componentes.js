@@ -50,7 +50,7 @@ const publicacionForm = (publicacion = null) => {
 
             <div class="flex items-center justify-between px-3 py-2 border-t dark:border-gray-600">
                 <button onclick="console.log('comentar!!!!')"
-                    class="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800">
+                    class="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-socialBlue rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:opacity-80">
                     Publicar
                 </button>
 
@@ -202,7 +202,7 @@ ${publicacionForm(publicacion)}
 
             <div class="flex items-center justify-between px-3 py-2 border-t dark:border-gray-600">
                 <button
-                    class="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800">
+                    class="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-socialBlue rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:opacity-90Gu">
                     Comentar
                 </button>
             </div>
@@ -248,12 +248,12 @@ class="min-w-full sm:min-w-[250px]  max-w-sm bg-white border border-gray-200 rou
         alt="${usuario.nombres}" />
     </a>
     <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">${nombreCompleto(usuario)}</h5>
-    <span class="text-sm text-gray-500 dark:text-gray-400">Desarrollador Frontend</span>
+    <span class="text-sm text-gray-500 dark:text-gray-400">${usuario.email}</span>
     <div class="flex mt-4 space-x-3 md:mt-6">
-        <a href="#"
-            class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Agregar</a>
-        <a href="#"
-            class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700">Chatear</a>
+        <a 
+            class="inline-flex items-center px-4 py-2 cursor-pointer text-sm font-medium text-center text-white bg-socialBlue rounded-lg hover:opacity-90 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Agregar</a>
+        <a 
+            class="inline-flex items-center px-4 py-2 cursor-pointer  text-sm font-medium text-center text-gray-900 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700">Chatear</a>
     </div>
 </div>
 </div>`
@@ -367,8 +367,7 @@ const perfilFormComponent = (usuario) => {
 
 
             <button type="submit"
-                class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Guardar
-                Cambios</button>
+                class="mt-4 bg-socialBlue text-white px-4 py-2 rounded hover:opacity-90">Guardar Cambios</button>
         </form>
 
     </div>
