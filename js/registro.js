@@ -11,6 +11,7 @@ const registrarUsuario = (data) => {
             })
         },
         error: (error) => {
+            alert(JSON.stringify(error))
             showToast(error.responseJSON, "error")
         }
     });

@@ -1,4 +1,4 @@
-const BASE_URL = 'https://famous-worm-moccasins.cyclic.app/api'
+const BASE_URL = 'https://churanet-api.onrender.com/api'
 
 
 const showToast = (msg, type = "success", test) => {
