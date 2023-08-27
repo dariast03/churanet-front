@@ -1,0 +1,1 @@
+const nombreCompleto = t => t.nombres + " " + t.apellidos, getUserAuth = () => (localStorage.getItem("usuario") || (window.location = "login.html"), JSON.parse(localStorage.usuario)), formatearFechaYYYYMMDD = t => `${t.getFullYear()}-${String(t.getMonth() + 1).padStart(2, "0")}-${String(t.getDate()).padStart(2, "0")}`;
